@@ -1,20 +1,20 @@
 {
-
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Auto-Following Tab",
   "version": "1.0",
 
-  "description": "Defaults to the 'Following' tab on twitter/home",
+  "description": "Auto-clicks to the 'Following' tab on Twitter, instead of 'For You'",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icons/border-48.png",
+    "96": "icons/border-96.png",
+    "128": "icons/border-128.png"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://*.twitter.com/home"],
+      "matches": ["*://*.twitter.com/*"],
       "js": ["auto_following_tab.js"]
     }
   ]
-
 }
