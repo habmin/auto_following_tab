@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Auto-Following Tab",
+  "name": "Twitter 'Following' Default",
   "version": "1.0",
 
-  "description": "Auto-clicks to the 'Following' tab on Twitter, instead of 'For You'",
+  "description": "Loads the 'Following' tab on Twitter Home when first loading site, instead of 'For You'",
 
   "icons": {
     "48": "icons/border-48.png",
@@ -16,5 +16,11 @@
       "matches": ["*://*.twitter.com/*", "https://twitter.com/home"],
       "js": ["auto_following_tab.js"]
     }
-  ]
+  ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "habmin@github"
+    }
+  }
 }
