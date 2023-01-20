@@ -18,13 +18,13 @@ Download by clicking the `Code` button, then `Download ZIP` in the upper right o
 2. Open Chrome and go to `chrome://extensions`.
 3. Activate `Developer mode` in the upper right, if not already active.
 4. Click on `Load unpacked`.
-5. Naviagte and select the extracted folder (will be `auto_following_tab-main` by default). (NOTE: Ignore error about `browser_specific_settings`, that's for Firefox to worry about.)
+5. Navigate and select the extracted folder (will be `auto_following_tab-main` by default). (NOTE: Ignore error about `browser_specific_settings`, that's for Firefox to worry about.)
 
 ### For Firefox
 1. Extract `auto_following_tab_firefox.xpi` from ZIP download.
 2. Open Firefox and go to `about:addons`.
 3. Click on the Settings/Gear icon and select `Install Add-On From File`.
-4. Navigate and select wheve ever you saved the xpi file. 
+4. Navigate and select where ever you saved the xpi file. 
 5. Confirm by hitting `Add`.
 6. Click on the installed extension `Twitter 'Following' Default` to manage permissions.
 7. Click on the `Permissions` tab.
