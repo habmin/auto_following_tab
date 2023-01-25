@@ -1,13 +1,15 @@
 window.addEventListener("load", (event) => {
 
     const followingAction = () => {
-        const spanFollowing = document.querySelector("a.r-6416eg[tabindex='-1']");
-        spanFollowing.click();
+        document.querySelectorAll("a.r-6416eg > div > div > span").forEach(element => {
+            if (element.innerHTML == "Following")
+                element.click();
+        });
     }
 
     setTimeout(() => {
         // perform switch when landing on home
-        if (window.location.href == "https://twitter.com/home") {
+        if (window.location.href == "https://twitter.com/home" || window.location.href == "https://mobile.twitter.com/home") {
             followingAction();
         }
         

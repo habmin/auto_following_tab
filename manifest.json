@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Twitter 'Following' Default",
-  "version": "1.0",
+  "version": "1.0.1",
 
   "description": "Loads the 'Following' tab on Twitter Home when first loading site, instead of 'For You'",
 
@@ -13,7 +13,7 @@
 
   "content_scripts": [
     {
-      "matches": ["*://*.twitter.com/*", "https://twitter.com/home"],
+      "matches": ["*://*.twitter.com/*"],
       "js": ["auto_following_tab.js"]
     }
   ],
